@@ -1,10 +1,9 @@
 import telegram as tel
 
 def send_msg(gongsi):
-  bot = tel.Bot(token="5451972497:AAHAN02dNskjCMzp3wC5vDON9fOXSaw0_tg")
-  # 5451972497:AAHAN02dNskjCMzp3wC5vDON9fOXSaw0_tg
-  #chat_id = "5343555758" 테스트 채널
-  chat_id = "-1001768710940" #오늘의공시 채널
+  bot = tel.Bot(token="telegram_Token")
+
+  chat_id = "channel_Id" #오늘의공시 채널
 
   for i in gongsi:
     print(i['title'], i['link'])
